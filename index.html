@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="New KFC — healthy and fast food, treated like a big feast.">
+  <title>New KFC — Feel good. Feast big.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="New KFC home">
+      <span class="brand-mark" aria-hidden="true">KFC</span>
+      <span class="brand-word">NEW KFC</span>
+    </a>
+    <div class="topbar-note"><span class="status-dot"></span> The feel-good feast is here</div>
+    <div class="launch-code">DROP 01 / 2026</div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="rule"></span> The new KFC is live</p>
+        <h1 id="hero-title">The feast<br><em>just evolved.</em></h1>
+        <p class="hero-intro">We kept the bold 11-herb spirit and made room for more of what makes you feel good. Fast food, treated like a big feast.</p>
+        <button class="enter-button" id="journeyStart" type="button">Start the story <span aria-hidden="true">↗</span></button>
+        <div class="hero-meta"><span>1952 → TODAY</span><span class="meta-divider"></span><span>Five eras. One bold reset.</span></div>
+      </div>
+      <div class="hero-art" aria-label="The Lighter Original Bowl with grilled chicken and 11 herbs and spices" role="img">
+        <img class="hero-photo" src="assets/hero-bowl.png" alt="The Lighter Original Bowl with grilled chicken, greens, and 11 herbs and spices">
+        <div class="art-caption"><b>FEAST<br>MODE: ON</b><span>Big flavor.<br>New energy.</span></div>
+      </div>
+      <div class="scroll-cue"><span></span> scroll to explore</div>
+    </section>
+
+    <section class="history" id="history" aria-labelledby="history-title">
+      <div class="history-intro">
+        <p class="eyebrow"><span class="rule"></span> Before the new drop</p>
+        <h2 id="history-title">A lot can happen<br><em>over a bucket.</em></h2>
+        <p>Every era left a mark. Take the long way around — from one roadside kitchen to a whole new way to feast.</p>
+        <div class="history-progress" aria-label="Five chapters in the KFC story"><span class="progress-fill"></span><b>01</b><span>/</span><b>05</b></div>
+      </div>
+      <div class="history-rail" role="list">
+        <article class="chapter chapter-roadside is-active" role="listitem">
+          <div class="chapter-top"><span>CHAPTER 01</span><span>1952</span></div>
+          <div class="chapter-visual"><span class="road-line"></span><span class="sign">KENTUCKY<br><b>FRIED<br>CHICKEN</b></span><span class="tiny-car">●</span></div>
+          <h3>The Roadside Kitchen</h3>
+          <p>Harland Sanders starts serving chicken at his gas station in Corbin, Kentucky.</p>
+          <small>Retro, small-town, handwritten energy.</small>
+          <button class="chapter-next" type="button">Next chapter <span>→</span></button>
+        </article>
+        <article class="chapter chapter-boom" role="listitem">
+          <div class="chapter-top"><span>CHAPTER 02</span><span>1960s–70s</span></div>
+          <div class="chapter-visual"><span class="burst">★</span><span class="colonel-silhouette">KFC</span></div>
+          <h3>The Franchise Boom</h3>
+          <p>KFC spreads across the country and the Colonel becomes an icon in a white suit.</p>
+          <small>Classic red-and-white, bold and confident.</small>
+          <button class="chapter-next" type="button">Next chapter <span>→</span></button>
+        </article>
+        <article class="chapter chapter-bucket" role="listitem">
+          <div class="chapter-top"><span>CHAPTER 03</span><span>1990s–2000s</span></div>
+          <div class="chapter-visual"><span class="neon-ring"></span><span class="mini-bucket">KFC</span></div>
+          <h3>Bucket Culture</h3>
+          <p>Drive-thrus, family buckets, and fast food at full volume.</p>
+          <small>Loud, saturated, peak fast food.</small>
+          <button class="chapter-next" type="button">Next chapter <span>→</span></button>
+        </article>
+        <article class="chapter chapter-slump" role="listitem">
+          <div class="chapter-top"><span>CHAPTER 04</span><span>THE SLUMP</span></div>
+          <div class="chapter-visual"><span class="flicker">?</span><span class="empty-sign">CLOSED<br><b>FOR<br>RETHINKING</b></span></div>
+          <h3>The Slump</h3>
+          <p>Greasy reputation, stale stores, weird menu experiments, and US customers drifting away.</p>
+          <small>Dingy, muted, intentionally uncomfortable.</small>
+          <button class="chapter-next" type="button">Next chapter <span>→</span></button>
+        </article>
+        <article class="chapter chapter-today" role="listitem">
+          <div class="chapter-top"><span>CHAPTER 05</span><span>TODAY</span></div>
+          <div class="chapter-visual"><span class="today-glow"></span><span class="today-kfc">KFC<br><b>NEW ERA</b></span></div>
+          <h3>Today: New KFC</h3>
+          <p>The rebrand and the Colonel's five new menu items.</p>
+          <small>Clean, modern, health-conscious launch.</small>
+          <button class="chapter-next final-chapter" id="historyToMenu" type="button">Meet the menu <span>↗</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow red"><span class="rule"></span> The first drop</p>
+          <h2 id="menu-title">Five icons.<br><em>One new KFC.</em></h2>
+        </div>
+        <p class="section-note">Five new ways to get your KFC fix — with a little more green, a little less grease, and all the joy.</p>
+      </div>
+      <div class="menu-rail" role="list">
+        <article class="menu-card card-green" role="listitem">
+          <div class="card-art food-photo"><img src="assets/lighter-original-bowl.png" alt="The Lighter Original Bowl with grilled chicken and mixed greens"></div>
+          <div class="card-number">01 / 05</div>
+          <h3>The Lighter Original Bowl</h3>
+          <p>Grilled chicken over mixed greens with 11-herb ranch on the side. All the flavor, less grease.</p>
+          <button class="more-button" type="button" aria-expanded="false">See more <span>+</span></button>
+          <div class="more-copy">A fresh, satisfying bowl that still tastes unmistakably KFC.</div>
+        </article>
+        <article class="menu-card card-yellow" role="listitem">
+          <div class="card-art food-photo"><img src="assets/air-fried-tender-basket.png" alt="Air-Fried Tender Basket with dipping sauce"></div>
+          <div class="card-number">02 / 05</div>
+          <h3>Air-Fried Tender Basket</h3>
+          <p>The crunch you expect from KFC, but air-fried. Served with your choice of dipping sauce.</p>
+          <button class="more-button" type="button" aria-expanded="false">See more <span>+</span></button>
+          <div class="more-copy">Choose honey mustard, ranch, or our signature hot sauce for dipping.</div>
+        </article>
+        <article class="menu-card card-pink" role="listitem">
+          <div class="card-art food-photo"><img src="assets/colonels-garden-wrap.png" alt="Colonel's Garden Wrap with grilled chicken and salad"></div>
+          <div class="card-number">03 / 05</div>
+          <h3>Colonel's Garden Wrap</h3>
+          <p>Grilled chicken, lettuce, tomato, and light herb sauce in a warm wrap. Built for eating on the go.</p>
+          <button class="more-button" type="button" aria-expanded="false">See more <span>+</span></button>
+          <div class="more-copy">Handheld, unfussy, and ready whenever your day gets moving.</div>
+        </article>
+        <article class="menu-card card-blue" role="listitem">
+          <div class="card-art food-photo"><img src="assets/herb-spice-salad-plate.png" alt="Herb and Spice Salad Plate with greens, corn, and carrots"></div>
+          <div class="card-number">04 / 05</div>
+          <h3>Herb &amp; Spice Salad Plate</h3>
+          <p>Crispy chicken strips on a bed of greens with corn, carrots, and a citrus-herb dressing.</p>
+          <button class="more-button" type="button" aria-expanded="false">See more <span>+</span></button>
+          <div class="more-copy">Crisp, colorful, and finished with a bright citrus-herb lift.</div>
+        </article>
+        <article class="menu-card card-orange" role="listitem">
+          <div class="card-art food-photo"><img src="assets/smart-bucket.png" alt="The Smart Bucket with chicken, green beans, and corn"></div>
+          <div class="card-number">05 / 05</div>
+          <h3>The Smart Bucket</h3>
+          <p>A family bucket split between Original Recipe and grilled pieces, with green beans and corn on the cob instead of fries only.</p>
+          <button class="more-button" type="button" aria-expanded="false">See more <span>+</span></button>
+          <div class="more-copy">Bring everyone to the table with a little something for every craving.</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing" aria-label="New KFC closing message">
+      <div class="closing-mark">KFC</div>
+      <p>Keep the feast.<br><em>Change the feeling.</em></p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </section>
+  </main>
+  <footer><span>© New KFC</span><span>Good food. Good mood. Good to go.</span><span>11 herbs &amp; spices, always.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
